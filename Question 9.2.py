@@ -1,0 +1,5 @@
+first_name=str(input("Enter your first name:"))
+surname=str(input("Enter your last name:"))
+group_name=str(input("Enter your group name:"))
+name_tag=(first_name+surname+group_name)
+print(f"Your name tag is {name_tag}")
